@@ -19,17 +19,6 @@ Use Django REST Framework to create an API, then "containerize" it with Docker.
 - **NOTE** Refer to the class demo for built out `Dockerfile` and `docker-compose.yml` examples.
 - Update `Dockerfile` and `docker-compose.yml` if needed.
 
-## Implementation Notes
-
-- You'll need to run a command to convert pyproject.toml dependencies to requirements.txt
-  - > poetry export -f requirements.txt -o requirements.txt
-- If you get an `allowed host` error examine the bug details and update code as needed.
-- When Docker installed and docker files are ready to go then run...
-  - $ docker-compose up
-- To shut docker down enter `ctrl+c`
-- You'll learn a better way soon
-  - In other words, make it work
-
 &nbsp;
 
 **PR Link**: <https://github.com/YAHIAQOUS/drf-api/pull/1>
