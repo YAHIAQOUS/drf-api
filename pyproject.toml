@@ -7,6 +7,7 @@ authors = ["Yahia Qous <yahiaqous@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^3.2.7"
+djangorestframework = "^3.12.4"
 
 [tool.poetry.dev-dependencies]
 black = "^21.8b0"
